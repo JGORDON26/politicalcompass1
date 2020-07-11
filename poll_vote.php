@@ -1,10 +1,9 @@
-<html>
 <?php
 $vote = $_REQUEST['vote'];
 
 //get content of textfile
 $filename = "poll_result.txt";
-$content = file($filename);
+$content = file($poll2.html);
 
 //put content in array
 $array = explode("||", $content[0]);
@@ -49,4 +48,3 @@ height='20'>
 
 
 
-</html>
